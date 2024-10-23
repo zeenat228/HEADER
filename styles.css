@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #240e5d;
+    color: white;
+    /* border: 10px solid rgb(226, 76, 126); */
+}
+
+/* header {
+    padding: 20px;
+    background-color: #1c0852;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+.container {
+    list-style-type: none;
+    display: flex;
+    gap: 180px;
+}
+
+.logo {
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.navbar {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    padding-top: 30px;
+}
+
+
+.buttons {
+    padding-top: 20px;
+    gap: 30px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.btn-dark {
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    border-radius: 20px;
+    background-color: #2a0886;
+}
+
+.btn-primary {
+    border: 4px solid rgb(233, 6, 82);
+    border-radius: 10px;
+    padding: 0 15px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #E92D69;
+}
+
+.hero {
+    display: flex;
+    /* justify-content: space-between; */
+    /* padding: 50px; */
+    padding-left: 100px;
+    margin: 30px;
+}
+
+.hero-content {
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    gap: 20px;
+}
+
+.hero-images1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 200;
+    height: 300;
+    margin-left: 200;
+}
+
+.hero-image3 {
+    width: 250px;
+    height: 350;
+    border-radius: 10px;
+}
+
+.hero-text {
+    max-width: 50%;
+    padding-left: 100px;
+}
+
+.hero-text h1 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+}
+
+.hero-text p {
+    margin: 20px 0;
+}
+
+.cta-buttons {
+    margin-top: 20px;
+}
+
+.cta-buttons a {
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #E92D69;
+}
+
+.btn-secondary {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}
+
+
+
+footer {
+    background-color: #240e5d;
+    padding: 30px 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+.social-icons a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+
+
+/* Media Queries for Responsive Layout
+@media (min-width: 768px) {
+    .navbar {
+        gap: 30px;
+    }
+    
+    .hero {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 50px;
+        text-align: left;
+    }
+
+    .hero-content {
+        gap: 50px;
+    }
+
+    .hero-text {
+        max-width: 50%;
+    }
+
+    .hero-images {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .hero-image {
+        width: 250px;
+        height: auto;
+    }
+} */
+
+/* @media (min-width: 1024px) {
+    .hero-content {
+        gap: 80px;
+    }
+
+    .hero-text h1 {
+        font-size: 3rem;
+    }
+
+    .hero-images {
+        gap: 30px;
+    }
+
+    .hero-image {
+        max-width: 350px;
+    }
+
+    footer {
+        padding: 30px 20px;
+    }
+} */
+
+/* Media Query for Mobile Screens 
+@media (max-width: 480px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .buttons {
+        flex-direction: column;
+        gap: 5px;
+        margin-top: 10px;
+    }
+
+    .cta-buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .hero-images {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .hero-image {
+        width: 100%;
+        max-width: 200px;
+    }
+
+    footer p, .social-icons {
+        font-size: 0.9rem;
+    }
+
+    .social-icons a {
+        margin: 0 5px;
+    }
+} */
